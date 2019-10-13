@@ -1,0 +1,39 @@
+# ps -l
+  PID USER       VSZ STAT COMMAND
+    1 root      1820 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW   [kworker/u:0]
+    6 root         0 SW<  [khelper]
+    7 root         0 SW   [sync_supers]
+    8 root         0 SW   [bdi-default]
+    9 root         0 SW<  [kblockd]
+   10 root         0 SW   [kswapd0]
+   11 root         0 SW<  [crypto]
+   18 root         0 SW   [mtdblock0]
+   19 root         0 SW   [mtdblock1]
+   20 root         0 SW   [mtdblock2]
+   21 root         0 SW   [mtdblock3]
+   22 root         0 SW   [mtdblock4]
+   31 root      1420 S    nvram_daemon
+   51 root         0 SW   [kworker/0:1]
+   52 root      1868 S    goahead
+   54 root      1820 S    telnetd
+   58 root         0 SW   [kworker/u:1]
+   74 root      1816 S    /sbin/getty 57600 ttyS1
+  634 root      1816 S    udhcpc -i eth2.2 -h WifiAP -s /sbin/udhcpc.sh -p /var
+ 1460 root      1860 S    /bin/sh /sbin/daemon.sh
+ 1807 root      1540 S    dnsmasq
+ 1811 root         0 SW   [kworker/0:2]
+ 1858 root         0 SW   [RtmpCmdQTask]
+ 1859 root         0 SW   [RtmpWscTask]
+ 2000 root      1828 S    udhcpd /etc/udhcpd.conf
+ 3268 root      1260 S    miniupnpd -m 1 -I ra0 -P /var/run/miniupnpd.ra0 -i et
+ 3275 root      1824 S    syslogd -C8
+ 3278 root      1816 S    klogd
+ 3289 root      1824 S    /bin/sh /sbin/mon.sh
+ 3371 root      1816 S    /bin/sh /sbin/usbmemdrop.sh
+ 4810 root      1828 S    -sh
+21407 root      1816 S    sleep 3
+21463 root      1816 S    sleep 5
+21471 root      1816 S    sleep 1

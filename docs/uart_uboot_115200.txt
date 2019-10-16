@@ -68,3 +68,44 @@ No initrd
 ## Giving linux memsize in MB, 64
 
 Starting kernel ...
+================
+U-Boot 1.1.3 (Dec 27 2013 - 09:14:28)
+MT7620 # ?
+?       - alias for 'help'
+bootm   - boot application image from memory
+cp      - memory copy
+erase   - erase SPI FLASH memory
+go      - start application at address 'addr'
+gpio     -set gpio pins
+gpiotest         -test gpio pins
+help    - print online help
+httpd   - start uHttpd for firmware upgrade.
+ledoff   -set led off
+ledon    -set led on
+loadb   - load binary file over serial line (kermit mode)
+md      - memory display
+mdio   - Ralink PHY register R/W command !!
+mm      - memory modify (auto-incrementing)
+nm      - memory modify (constant address)
+printenv- print environment variables
+reset   - Perform RESET of the CPU
+rf      - read/write rf register
+saveenv - save environment variables to persistent storage
+setenv  - set environment variables
+tftpboot- boot image via network using TFTP protocol
+version - print monitor version
+MT7620 # printenv
+bootcmd=tftp
+bootdelay=1
+baudrate=115200
+ethaddr="00:AA:BB:CC:DD:10"
+ipaddr=192.168.1.1
+serverip=192.168.1.100
+preboot=
+netmask=255.255.255.0
+stdin=serial
+stdout=serial
+stderr=serial
+ethact=Eth0 (10/100-M)
+
+Environment size: 206/4092 bytes
